@@ -1,0 +1,48 @@
+body { 
+background-color: gray;
+}
+table, td{ 
+border: 2px solid black;
+margin:0 auto;
+
+}
+
+.tablecon { 
+display:none;
+
+}
+
+#table { 
+background-color: #47DBE0;
+color: #343436;
+font-size: 150%;
+}
+
+td { 
+width: 100px;
+height: 100px;
+text-align: center;
+
+}
+
+.X, .O { 
+display: inline-block;
+
+
+}
+
+.prompt, tablecon{ 
+text-align: center;
+margin-top: 75px;
+color: white;
+}
+
+.prompt, .tablecon { 
+font-size: 140%;
+}
+
+.winner { 
+text-align: center;
+color: #001BA5;
+font-size: 130%;
+}
